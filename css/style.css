@@ -1,0 +1,77 @@
+/* Hoja de estilo que ayuda a definir el aspecto visual,
+* diseño y maquetación de una página web creada en HTML
+*/
+.button {
+	background:#7f8c8d;
+	color:#fff;
+	display:inline-block;
+	font-size:1.25em;
+	margin:20px;
+	padding:10px 0;
+	text-align:center;
+	width:200px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+}
+.button.green {
+	background:#3498db;
+	box-shadow:0px 3px 0px #266792;
+}
+
+    header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+
+    section::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    nav {
+    float: left;
+    width: 15%;
+    height: 600px; 
+    background: #ccc;
+    padding: 20px;
+    }
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+	float: right;
+    }
+
+    article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    height: 300px; 
+    }
+    
+    section::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    /* estilo pie de pagina*/
+    footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+    /*página responsiva */
+    @media (max-width: 800px) {
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+    }
